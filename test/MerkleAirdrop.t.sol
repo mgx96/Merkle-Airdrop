@@ -5,6 +5,5 @@ import {Test} from "forge-std/Test.sol";
 import {MerkleAirdrop} from "../src/MerkleAirdrop.sol";
 
 contract MerkleAirdropTest is Test {
-
     function setUp() public {}
 }
