@@ -4,6 +4,7 @@ pragma solidity ^0.8.30;
 import {Test, console} from "forge-std/Test.sol";
 import {MerkleAirdrop} from "../src/MerkleAirdrop.sol";
 import {PrdxToken} from "../src/PrdxToken.sol";
+import {DeployMerkleAirdrop} from "../script/DeployMerkleAirdrop.s.sol";
 
 contract MerkleAirdropTest is Test {
     MerkleAirdrop public airdrop;
