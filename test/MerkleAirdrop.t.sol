@@ -38,7 +38,7 @@ contract MerkleAirdropTest is Test {
 
         vm.prank(user);
         airdrop.claim(user, AMOUNT_TO_CLAIM, PROOF, v, r, s);
-        
+
         vm.prank(gasPayer);
         uint256 endingBalance = token.balanceOf(user);
         console.log("Ending balance: ", endingBalance);
